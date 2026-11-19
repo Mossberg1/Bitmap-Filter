@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
 
     BitmapImage* bitmap = load_bitmap(infile);
 
-    grayscale(bitmap);
+    flip_horizontal(bitmap);
 
     int res = save_bitmap(outfile, bitmap);
 
